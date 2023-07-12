@@ -4,6 +4,7 @@
   },
   "nome": "Brownie de Chocolate com Gengibre",
   "image": "https://anamariabraga.globo.com/wp-content/uploads/2021/01/brownie-de-chocolate-com-gengibre.jpg",
+  "description": "Uma combinação irresistível de chocolate com nozes e gengibre, resultando em um brownie deliciosamente equilibrado e aromático.",
   "secao": [
     {
       "nome": " Ingredientes",
@@ -56,6 +57,7 @@
     },
     "nome": "Hamburquibe",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2022/01/hamburquibe.jpg",
+    "description": "Uma alternativa saborosa ao hambúrguer tradicional, com uma mistura perfeita de carne moída, trigo para quibe e especiarias.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -97,6 +99,7 @@
     },
     "nome": "Peixe Delícia de Olinda da Eliane",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2023/03/peixe-delicia-de-olinda-1024x576.jpg",
+    "description": "Uma especialidade regional que combina peixe fresco, temperos tradicionais e ingredientes locais, resultando em um prato exótico e saboroso.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -132,6 +135,7 @@
     },
     "nome": "Bombom de cerejas do Flavio Federico",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2021/01/bombom-de-cereja-1024x576.jpg",
+    "description": "Uma explosão de sabor em cada mordida! Um delicado bombom de chocolate recheado com cerejas suculentas, perfeito para os amantes de chocolate e frutas.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -170,6 +174,7 @@
     },
     "nome": "Paleta Assada",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2022/03/paleta-bovina-na-pressao-1024x576.jpg",
+    "description": "Uma carne macia e suculenta, assada lentamente e temperada com uma combinação de ervas e especiarias, resultando em uma paleta de dar água na boca.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -197,6 +202,7 @@
     },
     "nome": "Geleia de Morango com Pimenta da Anna Terra",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2016/11/geleia-de-morango-1024x576.jpg",
+    "description": "Uma combinação intrigante de doce e picante. A geleia de morango tradicional é elevada a outro nível com a adição sutil de pimenta.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -226,6 +232,7 @@
     },
     "nome": "Siri Gratinado da Júlia",
     "image": "https://anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-4433-7494dcc2e0d4840207c5b224068fc879.jpg",
+    "description": "Deliciosos pedaços de siri cobertos com um gratinado dourado e crocante. Um prato sofisticado que combina frutos do mar com um toque cremoso e textura irresistível.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -274,6 +281,7 @@
     },
     "nome": "Paella do Petrúcio",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2016/11/-1930.jpg",
+    "description": "Uma festa de sabores em uma única panela! Este prato espanhol clássico combina arroz, frutos do mar, carne e uma variedade de especiarias.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -318,6 +326,7 @@
     },
     "nome": "Camarão no Abacaxi do Anderson",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2016/11/camarao-no-abacaxi-2053.jpg",
+    "description": "Uma combinação tropical de camarão suculento e abacaxi fresco. Esse prato refrescante e saboroso oferece uma explosão de sabores agridoces.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -357,6 +366,7 @@
     },
     "nome": "Taça Furiosa - Mousse de Chocolate Amargo com Uísque",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2021/01/taca-furiosa-1024x576.jpg",
+    "description": "Uma sobremesa intensa e luxuosa para os amantes de chocolate. Uma mousse de chocolate amargo, leve e aerada, com um toque especial de uísque.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -409,6 +419,7 @@
     },
     "nome": "Alto Zé do Pinho - Costela de Porco com Geleia de Laranja",
     "image": "https://anamariabraga.globo.com/wp-content/uploads/2016/11/-2327.jpg",
+    "description": "Uma combinação perfeita de carne suculenta e doce sabor cítrico. A costela de porco é cozida lentamente até ficar macia e depois é glaceada com uma deliciosa geleia de laranja.",
     "secao": [
       {
         "nome": " Ingredientes",
@@ -452,6 +463,53 @@
           "MONTAGEM ",
           "1 - A costela é servida cortada em costelinhas no prato, com cebolas, maçãs, alho e alecrim da assadeira. A farofa é servida em uma forminha no prato e o purê de macaxeira com queijo coalho é maçaricado na hora de servir.",
           " "
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5744eff20ca7832b5c745a53"
+    },
+    "nome": "Duo de Brusquetas",
+    "image": "https://anamariabraga.globo.com/wp-content/uploads/2016/11/-2461.jpg",
+    "description": "Uma seleção de bruschettas deliciosas e versáteis. Cada fatia de pão crocante é coberta com diferentes combinações de ingredientes frescos, como tomate, queijo, ervas e azeite.",
+    "secao": [
+      {
+        "nome": " Ingredientes",
+        "conteudo": [
+          "2 pães baguete grandes (ou 4 menores)",
+          "1 cachaça",
+          "Açúcar",
+          "Geleia de amora",
+          "4 cebolas brancas",
+          "Linguiça com pimenta fresca Van Peeters",
+          "Sal",
+          "Azeite",
+          "20 ou 30 tomatinhos-cereja",
+          "Pimenta-do-reino",
+          "1 cabeça de alho",
+          "Folhas de louro",
+          "Queijo brie",
+          "Folhas de manjericão para decorar",
+          " "
+        ]
+      },
+      {
+        "nome": " Modo de Preparo",
+        "conteudo": [
+          "1 - Corte o pão baguete em rodelas grossas para receber os recheios e depois ir para o forno por 7 a 10 minutos.",
+          " ",
+          "BRUSQUETA DE LINGUIÇA PICANTE COM CEBOLA CARAMELIZADA",
+          "1- Corte a cebola em rodelas e coloque na panela junto com a cachaça, açúcar e a geleia de amora.",
+          "2 - Deixe tampado e fique mexendo até reduzir completamente.",
+          "3 - Corte a linguiça em rodelas e asse na frigideira com azeite e vá colocando um pouco de água e tapando, para que ela fique cozida por dentro.",
+          "4 - Coloque sobre o pão cortado a linguiça, a cebola e finalize, depois que sair do forno, com uma folha de manjericão.",
+          " ",
+          "BRUSQUETA DE QUEIJO BRIE COM TOMATINHO",
+          "1 - Corte os tomatinhos na metade e disponha em uma assadeira com açúcar em cima deles, sal, pimenta-do-reino, alho e louro, tudo regado com cachaça e muito azeite. Coloque no forno baixo para confitar.",
+          "2 - Coloque uma fatia fina do queijo brie sobre o pão e o tomatinho por cima, então, finalize com pedaços do alho confitado, depois que sair do forno.",
+          " "
         ]
       }
     ]

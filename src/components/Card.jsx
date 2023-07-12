@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 import React from "react";
 import "./Card.css"
 
-function Card({nome, image, text}){
+function Card({title, image, text, id}){
     return(
         <div className="card-container">
             <div className="image-container">
@@ -9,7 +11,7 @@ function Card({nome, image, text}){
             </div>
             <div className="card-content">
                 <div className="card-title">
-                    <h3>{nome}</h3>
+                    <h3>{title}</h3>
                 </div>
                 <div className="card-text">
                     <p>{text}</p>
@@ -19,7 +21,9 @@ function Card({nome, image, text}){
             <div className="btn">
                 <button>
                     <a>
-                        Confira a receita!
+                        <Link to={`/Receitas/${id}`}>
+                            Confira a receita!
+                        </Link>
                     </a>
                 </button>
             </div>

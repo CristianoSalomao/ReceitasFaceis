@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import Card from "../Components/Card";
 import axios from "axios";
 
+import "./PagesGrid.css";
+
 
 
 const Home = () => {
@@ -16,11 +18,12 @@ const Home = () => {
     }, [])
 
     return(
-        <div className="">
-            <div className="">
+        <div className="container">
+            <h2 className="title">Receitas:</h2>
+            <div className="receitas-container">
                 {
                     receitas.map((receita) => {
-                        return <Card image={receita.image} title={receita.nome} ></Card>
+                        return <Card image={receita.image} title={receita.nome} text={receita.description} id={receita._id.$oid}></Card>
                     })
                 }
             </div>
