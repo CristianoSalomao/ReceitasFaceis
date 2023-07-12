@@ -1,4 +1,27 @@
-.receitas-container h1 {
+.receitas-master{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.receitas-nome{
+  width: 100%;
+  text-align: center;
+  color: #f7d354;    
+}
+
+.receitas-containers{
+  margin: 2rem;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  background-color: #222222;
+  border-radius: 15px;
+}
+
+.receitas-containers h1 {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -6,16 +29,17 @@
   text-align: center;
 }
 
-.receitas-container img {
-  max-width: 200px;
+.receitas-containers img {
+  width: 100%;
   margin-bottom: 10px;
+  border-radius: 7px;
 }
 
-.receitas-container div {
+.receitas-containers div {
   margin-bottom: 20px;
 }
 
-.receitas-container h2,
-.receitas-container h3 {
+.receitas-containers h2,
+.receitas-containers h3 {
   margin-bottom: 10px;
 }

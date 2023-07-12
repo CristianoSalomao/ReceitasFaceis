@@ -24,29 +24,31 @@ const Receitas = () => {
   }, [id]);
 
   return (
-    <div className="receitas-container">
-      {receitas.map((receita) => (
-        <div key={receita._id.$oid}>
-          <h2>{receita.nome}</h2>
-          <img src={receita.image} alt={receita.nome} />
-          {receita.secao.map((secao) => (
-            <div key={secao.nome}>
-              <h3>{secao.nome}</h3>
-              <div>
-                {Array.isArray(secao.conteudo) ? (
-                  <ul style={{ listStyleType: "none", padding: 0 }}>
-                    {secao.conteudo.map((item, index) => (
-                      <li key={index}>{item}</li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p>{secao.conteudo}</p>
-                )}
+    <div className="receitas-master">
+      <div className="receitas-containers">
+        {receitas.map((receita) => (
+          <div key={receita._id.$oid}>
+            <h2 className="receitas-nome">{receita.nome}</h2>
+            <img src={receita.image} alt={receita.nome} />
+            {receita.secao.map((secao) => (
+              <div key={secao.nome}>
+                <h3>{secao.nome}</h3>
+                <div>
+                  {Array.isArray(secao.conteudo) ? (
+                    <ul style={{ listStyleType: "none", padding: 0 }}>
+                      {secao.conteudo.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p>{secao.conteudo}</p>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      ))}
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -62,12 +62,34 @@
       {
         "nome": " Ingredientes",
         "conteudo": [
-          "RECHEIO",
-          "2 colheres (sopa) de azeite1 colher (sopa) de alho picadinho100g de cebola picada500g de carne moída60g de extrato de tomate1⁄2 xícara (chá) de águaSalsinha a gostoPimenta síria a gostoSal a gosto",
-          "MASSA",
-          "150g de cebola cortada em cubos médios4 dentes de alho1 xícara (chá) de hortelã200g de trigo para quibe360ml de água fervente60ml de azeite1kg de carne moída1 xícara (chá) de tomate sem pele e sem semente cortado em cubosSal a gostoPimenta Síria a gosto",
-          "MOLHO DE IOGURTE",
-          "2 copos de iogurte natural2 colheres (sopa) de azeite1 limão (suco)Hortelã picadinho a gostoSal a gostoPimenta síria a gosto",
+          "RECHEIO:",
+          "2 colheres (sopa) de azeite",
+          "1 colher (sopa) de alho picadinho",
+          "100g de cebola picada",
+          "500g de carne moída",
+          "60g de extrato de tomate",
+          "1⁄2 xícara (chá) de água",
+          "Salsinha a gosto",
+          "Pimenta síria a gosto",
+          "Sal a gosto",
+          "MASSA:",
+          "150g de cebola cortada em cubos médios",
+          "4 dentes de alho",
+          "1 xícara (chá) de hortelã",
+          "200g de trigo para quibe",
+          "360ml de água fervente",
+          "60ml de azeite",
+          "1kg de carne moída",
+          "1 xícara (chá) de tomate sem pele e sem semente cortado em cubos",
+          "Sal a gosto",
+          "Pimenta Síria a gosto",
+          "MOLHO DE IOGURTE:",
+          "2 copos de iogurte natural",
+          "2 colheres (sopa) de azeite",
+          "1 limão (suco)",
+          "Hortelã picadinho a gosto",
+          "Sal a gosto",
+          "Pimenta síria a gosto",
           " "
         ]
       },
@@ -140,7 +162,12 @@
       {
         "nome": " Ingredientes",
         "conteudo": [
-          "100g de calda da cereja400ml de vodca (ou Bourbon ou whisky com 40º de álcool)Corante alimentício em pó vermelho a gosto50 cerejas em calda com cabo e drenadas600g de fondant branco400g de chocolate meio amargo temperado",
+          "100g de calda da cereja",
+          "400ml de vodca (ou Bourbon ou whisky com 40º de álcool)",
+          "Corante alimentício em pó vermelho a gosto",
+          "50 cerejas em calda com cabo e drenadas",
+          "600g de fondant branco",
+          "400g de chocolate meio amargo temperado",
           " "
         ]
       },
@@ -179,7 +206,13 @@
       {
         "nome": " Ingredientes",
         "conteudo": [
-          "1 litro de água3 colheres (sopa) de sal (45g)3 colheres (sopa) de açúcar (30g)1⁄2 colher (sopa) de alho picado (5g)1 colher (sopa) de pimenta-do-reino moída a gosto (5g)1 colher (sopa) de páprica picante em pó (5g)Alecrim debulhado a gosto4 bifes de paleta com osso (+/- 3kg no total)",
+          "1 litro de água3 colheres (sopa) de sal (45g)",
+          "3 colheres (sopa) de açúcar (30g)",
+          "1⁄2 colher (sopa) de alho picado (5g)",
+          "1 colher (sopa) de pimenta-do-reino moída a gosto (5g)",
+          "1 colher (sopa) de páprica picante em pó (5g)",
+          "Alecrim debulhado a gosto",
+          "4 bifes de paleta com osso (+/- 3kg no total)",
           " "
         ]
       },
@@ -325,7 +358,7 @@
       "$oid": "5744eff20ca7832b5c745a50"
     },
     "nome": "Camarão no Abacaxi do Anderson",
-    "image": "https://anamariabraga.globo.com/wp-content/uploads/2016/11/camarao-no-abacaxi-2053.jpg",
+    "image": "https://ogimg.infoglobo.com.br/in/20321675-a0d-f0e/FT1086A/Do-Horto_Camarao-Gratinado-no-Abacaxi_Filico.jpg",
     "description": "Uma combinação tropical de camarão suculento e abacaxi fresco. Esse prato refrescante e saboroso oferece uma explosão de sabores agridoces.",
     "secao": [
       {

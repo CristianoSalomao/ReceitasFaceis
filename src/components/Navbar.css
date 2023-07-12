@@ -23,7 +23,7 @@
     border: none;
 }
 
-#navbar form button{
+#navbar button{
     background-color: #f7d354;
     border: 2px solid #f7d354;
     border-radius: 4px;
@@ -36,7 +36,18 @@
     transition: .4s;
 }
 
-#navbar form button:hover{
+#navbar button:hover{
     background-color: transparent;
     color: #f7d354;
+}
+
+#navbar div{
+    display: flex;
+    gap: 4rem;
+}
+
+#navbar span{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
