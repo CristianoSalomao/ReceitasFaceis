@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import "./Card.css"
 
-function Card({title, image, text, id}){
+function Card({title, image, text, id, who}){
     return(
         <div className="card-container">
             <div className="image-container">
@@ -21,7 +21,7 @@ function Card({title, image, text, id}){
             <div className="btn">
                 <button>
                     <a>
-                        <Link to={`/Receitas/${id}`}>
+                        <Link to={`/Receitas/${who}/${id}`}>
                             Confira a receita!
                         </Link>
                     </a>
@@ -31,4 +31,4 @@ function Card({title, image, text, id}){
     )
 }
 
-export default Card
+export default Card;

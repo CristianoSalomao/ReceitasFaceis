@@ -5,29 +5,37 @@ import "./Receita.css";
 
 const Receitas = () => {
   const [receitas, setReceitas] = useState([]);
-  const { id } = useParams();
+  const { id, who } = useParams();
 
   useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await axios.get("http://localhost:3000/receitas");
-
-        setReceitas(
-          response.data.filter((receita) => receita._id.$oid === id)
-        );
-      } catch (error) {
-        console.error("Erro ao buscar as receitas:", error);
+    if(who == 'all'){
+      async function fetchData() {
+        try {
+          const response = await axios.get("http://localhost:3000/receitas");
+  
+          setReceitas(
+            response.data.filter((receita) => receita._id.$oid === id)
+          );
+        } catch (error) {
+          console.error("Erro ao buscar as receitas:", error);
+        }
       }
-    }
+  
+      fetchData();
+    } else {
+      setReceitas(
+        JSON.parse(localStorage.getItem('receitas')).filter((receita) => receita.id === id)
+      );
 
-    fetchData();
+      console.log(JSON.parse(localStorage.getItem('receitas')).filter((receita) => receita.id === id))
+    }
   }, [id]);
 
   return (
     <div className="receitas-master">
       <div className="receitas-containers">
         {receitas.map((receita) => (
-          <div key={receita._id.$oid}>
+          <div key={who == "all" ? receita._id.$oid : receita.id}>
             <h2 className="receitas-nome">{receita.nome}</h2>
             <img src={receita.image} alt={receita.nome} />
             {receita.secao.map((secao) => (

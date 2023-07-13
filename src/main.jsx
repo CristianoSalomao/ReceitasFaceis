@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import Search from './pages/Search.jsx'
 import Receitas from './pages/Receitas.jsx'
 import AddReceita from './pages/AddReceita.jsx'
+import MinhasReceitas from './pages/MinhasReceitas.jsx'
 
 import './index.css'
 
@@ -16,9 +17,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route element={<App />}>
           <Route path="/" element={<Home />} />
-          <Route path="Receitas/:id" element={<Receitas />} />
+          <Route path="Receitas/:who/:id" element={<Receitas />} />
           <Route path="Search" element={<Search />} /> 
           <Route path="AddReceita" element={<AddReceita/>} /> 
+          <Route path='MinhasReceitas' element={<MinhasReceitas/>} />
         </Route>
       </Routes>
     </BrowserRouter>

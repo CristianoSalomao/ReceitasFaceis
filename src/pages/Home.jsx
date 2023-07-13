@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import Card from "../Components/Card";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 import "./PagesGrid.css";
-
-
 
 const Home = () => {
     const [receitas, setReceitas] = useState([])
@@ -23,10 +22,11 @@ const Home = () => {
             <div className="receitas-container">
                 {
                     receitas.map((receita) => {
-                        return <Card image={receita.image} title={receita.nome} text={receita.description} id={receita._id.$oid}></Card>
+                        return <Card image={receita.image} title={receita.nome} text={receita.description} id={receita._id.$oid} who="all"></Card>
                     })
                 }
             </div>
+            <Link to="/minhasreceitas" id="fab" >+</Link>
         </div>
     )
 };

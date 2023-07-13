@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { BiFoodMenu, BiSearchAlt2, BiPlus } from "react-icons/bi";
+import { BiFoodMenu, BiSearchAlt2, BiPlus, BiHome } from "react-icons/bi";
 
 import "./Navbar.css";
  
@@ -25,7 +25,14 @@ const Navbar = () => {
                 </Link>
             </h2>
             <div>
-                <span onClick={() => navigate('/AddReceita')}>
+            <span className="Btn-SubmitReceitas" onClick={() => navigate('/MinhasReceitas')}>
+                    <button type="submit">
+                        <BiHome/>
+                    </button>
+                    MinhasReceitas
+                </span>
+
+                <span className="Btn-SubmitReceitas" onClick={() => navigate('/AddReceita')}>
                     <button type="submit">
                         <BiPlus/>
                     </button>
